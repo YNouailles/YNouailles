@@ -8,7 +8,6 @@ import { formatRating } from '@bg-hoard/store/util-formatters';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  //...
   formatRating = formatRating;
   title = 'Board Game Hoard';
   games = getAllGames();
